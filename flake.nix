@@ -119,7 +119,7 @@
 
       lib.mkNixcached = pkgs: pkgs.callPackage ./package.nix {
         git = pkgs.pkgsBuildBuild.git;
-        go = pkgs.pkgsBuildHost.go_1_21;
+        go = pkgs.pkgsBuildHost.go_1_23;
         redo-apenwarr = pkgs.pkgsBuildBuild.redo-apenwarr;
         tailwindcss = pkgs.pkgsBuildBuild.nodePackages.tailwindcss;
       };
